@@ -12,7 +12,7 @@ public class Proyecto3Application {
 
 	@GetMapping("/hello")
 	public String hello(){
-		return "Hola Ciclo3";
+		return "Hola Ciclo3 :)";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(Proyecto3Application.class, args);
