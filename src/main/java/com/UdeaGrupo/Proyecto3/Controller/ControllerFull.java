@@ -23,5 +23,11 @@ public class ControllerFull {
 
     }
 
+    @GetMapping("/AgregarEmpresa")
+    public String NuevaEmpresa(Model model){
+        Empresa emp = new Empresa();
+        model.addAttribute("emp", emp);
+        return "agregarEmpresa";
+    }
 
 }
